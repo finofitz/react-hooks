@@ -25,7 +25,7 @@ const EditUserForm = props => {
         props.updateUser(user.id, user)
       }}
     >
-      <label>Name</label>
+      <label>Name xxxx</label>
       <input type="text" name="name" value={user.name} onChange={handleInputChange} />
       <label>Username</label>
       <input type="text" name="username" value={user.username} onChange={handleInputChange} />
